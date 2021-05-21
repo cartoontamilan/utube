@@ -35,7 +35,7 @@
       "value": ""
     },
     "AUTH_USERS": {
-      "description": "983480159, separated by comma",
+      "description": "983480159",
       "value": "",
       "required":false
     },
