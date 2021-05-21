@@ -1,41 +1,41 @@
 {
-  "name": "Youtube Upload Bot",
+  "name": "CTutube Uploader",
   "description": "Telegram to YouTube Uploader Bot",
-  "repository": "https://github.com/odysseusmax/utube",
+  "repository": "https://github.com/cartoontamilan/utube",
   "logo": "https://github.com/odysseusmax/utube/blob/master/ss/logo.jpeg",
   "keywords": ["telegram", "youtube", "uploader"],
   "env": {
       "BOT_TOKEN": {
-      "description": "Your Bot token. Get from https://t.me/botfather",
+      "description": "1838688735:AAHj7PMxxDJVebXSpXM_Lhh2FKsw1HcXrao",
       "value": ""
     },
     "SESSION_NAME": {
-      "description": "Your Bot's username.",
+      "description": "@ctutube_bot",
       "value": "youtubeitbot",
       "required":false
     },
     "API_ID": {
-      "description": "Your API_ID.  Refer project docs.",
+      "description": "5692055",
       "value": ""
     },
     "API_HASH": {
-      "description": "Your API_ID. Refer project docs.",
+      "description": "054513b51d72a347f80535d7520cdfbb",
       "value": ""
     },
     "CLIENT_ID": {
-      "description": "Your Google CLIENT_ID. Refer project docs.",
+      "description": "664107408955-coge517i7gvakgarm8h7u0oqp7s1mh5m.apps.googleusercontent.com",
       "value": ""
     },
     "CLIENT_SECRET": {
-      "description": "Your Google CLIENT_SECRET. Refer project docs.",
+      "description": "oWCpI3LSI1vjRxPK7RvDPX-b",
       "value": ""
     },
     "BOT_OWNER": {
-      "description": "Telegram id of the bot owner.",
+      "description": "983480159",
       "value": ""
     },
     "AUTH_USERS": {
-      "description": "Telegram id of authorised users, separated by comma",
+      "description": "983480159, separated by comma",
       "value": "",
       "required":false
     },
