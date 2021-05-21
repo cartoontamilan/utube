@@ -4,7 +4,7 @@ class Config:
 
     BOT_TOKEN = os.environ.get("1838688735:AAHj7PMxxDJVebXSpXM_Lhh2FKsw1HcXrao")
     
-    SESSION_NAME = os.environ.get("CTutube Uploader", 'youtubeitbot')
+    SESSION_NAME = os.environ.get("@ctutube_bot", 'youtubeitbot')
 
     API_ID = int(os.environ.get("5692055"))
 
@@ -16,9 +16,9 @@ class Config:
 
     BOT_OWNER = int(os.environ.get("983480159"))
     
-    AUTH_USERS_TEXT = os.environ.get("Hi Friends", '')
+    AUTH_USERS_TEXT = os.environ.get("983480159", '')
 
-    AUTH_USERS = [BOT_OWNER, 983480159] + ([int(user.strip()) for user in AUTH_USERS_TEXT.split(",")] if AUTH_USERS_TEXT else [])
+    AUTH_USERS = [983480159, 374321319] + ([int(user.strip()) for user in AUTH_USERS_TEXT.split(",")] if AUTH_USERS_TEXT else [])
     
     VIDEO_DESCRIPTION = os.environ.get("VIDEO_DESCRIPTION", '').replace('<', '').replace('>', '')
     
