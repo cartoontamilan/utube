@@ -10,9 +10,9 @@ class Config:
 
     API_HASH = os.environ.get("054513b51d72a347f80535d7520cdfbb")
 
-    CLIENT_ID = os.environ.get("664107408955-iu82n1bbb2kk7mu8in1m6nfuj75ug9eb.apps.googleusercontent.com")
+    CLIENT_ID = os.environ.get("664107408955-coge517i7gvakgarm8h7u0oqp7s1mh5m.apps.googleusercontent.com")
 
-    CLIENT_SECRET = os.environ.get("Bqfjnb3av1EU0a5ECgEEagI3")
+    CLIENT_SECRET = os.environ.get("oWCpI3LSI1vjRxPK7RvDPX-b")
 
     BOT_OWNER = int(os.environ.get("983480159"))
     
